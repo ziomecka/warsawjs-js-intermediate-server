@@ -1,0 +1,11 @@
+{
+  "en": {
+    "filterPlaceholder": "filter channels",
+    "imageAlt": "Channel's logo",
+    "statsValue": "-",
+    "title": "Some channel",
+    "subscribers": "subscribers",
+    "videos": "videos",
+    "views": "views"
+  }
+}
