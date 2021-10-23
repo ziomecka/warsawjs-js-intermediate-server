@@ -1,0 +1,45 @@
+{
+  "name": "warsawjs-js-intermediate-server",
+  "description": "WarsawJS training - JS - intermediate - server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "babel-node ./src/index.js",
+    "lint": "eslint src/index.babel.js --config .eslintrc.json",
+    "test": "jest --verbose",
+    "test:watch": "jest --verbose --watch"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/eslint-parser": "7.15.8",
+    "@babel/node": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "dotenv": "10.0.0",
+    "eslint": "8.0.1",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "jest": "27.3.1",
+    "prettier": "2.4.1"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "14.18.1",
+    "npm": "6.14.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziomecka/wjs-js-intermediate-server.git"
+  },
+  "author": {
+    "name": "Katarzyna Ziomek-Zdanowicz",
+    "email": "katarzyna@zdanowicz.org.pl"
+  },
+  "bugs": {
+    "url": "https://github.com/ziomecka/wjs-js-intermediate-server/issues"
+  },
+  "homepage": "https://github.com/ziomecka/wjs-js-intermediate-server#readme"
+}

@@ -1,0 +1,56 @@
+{
+    "env": {
+      "browser": false,
+      "es6": true,
+      "node": true,
+      "jest": true
+    },
+    "root": true,
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {
+      "no-debugger": "warn",
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "array-bracket-spacing": [
+        "error",
+        "never"
+      ],
+      "arrow-spacing": "error",
+      "block-spacing": "error",
+      "comma-spacing": "error",
+      "computed-property-spacing": "error",
+      "eol-last": "error",
+      "func-call-spacing": "error",
+      "key-spacing": "error",
+      "keyword-spacing": "error",
+      "no-duplicate-imports": "error",
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "rest-spread-spacing": "error",
+      "semi-spacing": "error",
+      "space-before-blocks": "error",
+      "space-in-parens": [
+        "error",
+        "never"
+      ],
+      "space-unary-ops": "error",
+      "spaced-comment": "error",
+      "switch-colon-spacing": "error",
+      "no-prototype-builtins": "off"
+    }
+  }
